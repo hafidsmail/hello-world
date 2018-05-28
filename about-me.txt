@@ -1,2 +1,341 @@
-So this is my start in GitHub
-i wish that i will work hard .. 
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Madee</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+
+  </head>
+  <body>
+    <!-- Container -->
+
+    <div class="wrapper">
+      <!--Banner-->
+      <nav>
+        <!-- top nav -->
+        <div class="topNav">
+          <div class="leftSide">
+            <ul>
+              <li><i class="far fa-envelope"></i></li>
+              <li><p>Contactus@gmail.com</p></li>
+              <li><i class="fas fa-phone"></i></li>
+              <li><p>+212689746378</p></li>
+            </ul>
+          </div>
+          <div class="rightSide">
+            <ul>
+              <li><p>Follow us on:</p></li>
+              <li><i class="fab fa-facebook"></i></li>
+              <li><i class="fab fa-youtube"></i></li>
+              <li><i class="fab fa-twitter"></i></li>
+              <li><i class="fab fa-whatsapp"></i></li>
+              <li><i class="fab fa-google-plus"></i></li>
+            </ul>
+          </div>
+        </div>
+        <!-- End top nav -->
+        <!-- main Navigation -->
+        <div class="mainNav">
+          <div class="logo">
+            <img src="images/logo.png" alt="logo" id="logo">
+          </div>
+          <div class="mainSide">
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">PROGRAM</a></li>
+              <li><a href="#">ABOUT US</a></li>
+              <li><a href="#">EVENTS</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End main Navigation -->
+      <!-- end banner -->
+      <!-- Slide -->
+      <div class="slideshow">
+        <p>MADEE</p>
+      </div>
+      <!-- end slide -->
+      <!-- first title About us -->
+      <div class="wrapper">
+  			<div class="title">
+  				<div class="line1">
+  				</div >
+  				<div class="aboutus">
+  					<h1> ABOUT US</h1>
+  				</div>
+  				<div class="line2">
+  				</div>
+  			</div>
+        <!-- End first title about us -->
+        <!-- paragraphe about us -->
+			<div class="paragraphe" >
+				<p> Founded in 2016,<b> MADEE </b>is a Moroccan non-governmental organization that aims at
+				developing the status of technology, empowering digital education in Morocco and
+				encouraging the Moroccan youth to get involved in the digital world. The NGO does this
+				through offering three different programs, namely Atfal Code, Tech-Women and Web
+				Academy.</p>
+			</div>
+      <!-- end paragraphe about us -->
+      <!-- bar lorem ipsum -->
+			<div class="bar">
+				<div class="section">
+					<img class="cercle" src="images/cercle.png">
+					<p class="p1"> Lorem ipsum</p>
+					<p> Donic garva </p>
+					<p> 16.18.2019</p>
+				</div>
+				<div class="section">
+					<img class="cercle" src="images/cercle.png">
+					<p class="p1"> Lorem ipsum</p>
+					<p> Donic garva </p>
+					<p> 16.18.2019</p>
+				</div>
+				<div class="section">
+					<img class="cercle" src="images/cercle.png">
+					<p class="p1"> Lorem ipsum</p>
+					<p> Donic garva </p>
+					<p> 16.18.2019</p>
+				</div>
+			</div>
+      <!-- end bar lorem ipsum -->
+			</div>
+      <!-- second title our program -->
+			<div class="title">
+				<div class="line1">
+				</div >
+				<div class="aboutus">
+					<h1>OUR PROGRAM</h1>
+				</div>
+				<div class="line2">
+				</div>
+			</div>
+      <!-- end second title our program -->
+      <!-- program sections -->
+			<div class="ourprogram">
+        <!-- first program section -->
+				<div class="programsection">
+					<img src="images/webacademy.png">
+					<h2>WEB ACADEMY</h2>
+					<p>Through Web Academy, we offer free training for school dropouts without diplomas
+					whose ages fall within the range from 18 to 25.</p>
+					<button> More </button>
+				</div>
+        <!-- end first program section -->
+        <!-- second program section -->
+				<div class="programsection">
+					<img src="images/atfalcode.png">
+					<h2>ATFAL CODE</h2>
+					<p>Atfal Code is a program dedicated to children whose ages range between 8 and 14.</p>
+					<button id="atfal"> More </button>
+				</div>
+        <!-- end second program section -->
+        <!-- third program section -->
+				<div class="programsection">
+					<img src="images/womendigital.png">
+					<h2>WOMEN DIGITAL</h2>
+					<p> Digital Women is another project of our organization that aims at encouraging
+						various categories of Moroccan women.</p>
+					<button> More </button>
+			</div>
+      <!-- end third program section -->
+			</div>
+      <!-- end program sections-->
+      <!-- events -->
+			<div class="events">
+        <!-- third title events -->
+				<div class="eventstitle">
+					<div class="line111">
+					</div >
+					<div class="eventss">
+						<h1> EVENTS</h1>
+					</div>
+					<div class="line222">
+					</div>
+				</div>
+        <!-- end third title events -->
+        <!-- events sections-->
+				<div class="eventsection ">
+          <!-- first event Atfal code -->
+					<div class="eventsection1">
+						<img  style="width: 200px" src="images/image1.jpg">
+						<h1> ATFAL CODE</h1>
+						<p> 01.12.2018</p>
+						<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique si.</p>
+						<button> More </button>
+					</div>
+          <!-- end first event atfal code -->
+          <!--second event women digital -->
+					<div class="eventsection1">
+						<img  style="width: 200px" src="images/image2.jpg">
+						<h1> WOMEN DIGITAL</h1>
+						<p> 01.12.2018</p>
+						<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique.</p>
+						<button> More </button>
+					</div>
+          <!--end second event women digital -->
+				</div>
+        <!-- end events sections-->
+			</div>
+      <!--section of newsletter -->
+			<div class="newsletter">
+        <!-- fourth title Recieve our newsletter -->
+				<div class="title">
+					<div class="line11">
+					</div >
+					<div class="aboutus">
+						<h1>RECIEVE OUR NEWSLETTER</h1>
+					</div>
+					<div class="line22">
+					</div>
+				</div>
+        <!-- end fourth title recieve our newsletter-->
+        <!-- paragraphe of newsletter -->
+				<p class="para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Morbi tristique sit amet arcu quis vulputate. Donec sodales vestibulum nibh, nec dictum leo. </p>
+        <!-- end of paragraphe-->
+        <!-- form of newsletter -->
+        <input type="input" name=""  class="emailArea">
+				<button>SUBSCRIBE</button>
+        <!-- end form of newsletter -->
+			</div>
+      <!-- end of fifth title Recieve our newsletter -->
+      <!-- section of reviews -->
+      <div class="reviews">
+                <!--sixth title reviews-->
+      					<div class="eventstitlee">
+      						<div class="line1111">
+      						</div >
+      						<div class="eventsss">
+      							<h1>REVIEWS</h1>
+      						</div>
+      						<div class="line2222">
+      						</div>
+      					</div>
+                <!--end sixth title reviews-->
+                <!-- review field -->
+      					<div class="txt">
+                    <!-- first review -->
+                  <div >
+      							<div class="txt1">
+      								<p>Lorem ipsum </p>
+      								<p class="p1">denic iorg</p>
+      								<p class="p1">11.01.2019 </p>
+      							</div>
+      							<div class="txt2">
+      								<p class="p2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt sapien ac nibh egestas iaculis. Praesent auctor ullamcorper feugiat Aliquam non facilisis magna, vel tempus erat. In molestie tincidunt ipsum</p>
+      							</div>
+      						</div>
+                  <!-- end first review -->
+                  <!-- second review -->
+      						<div >
+      							<div class="txt3">
+      								<p>Lorem ipsum </p>
+      								<p class="p1">denic iorg</p>
+      								<p class="p1">11.01.2019 </p>
+      							</div>
+      							<div class="txt4">
+      								<p class="p2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt sapien ac nibh egestas iaculis. Praesent auctor ullamcorper feugiat Aliquam non facilisis magna, vel tempus erat. In molestie tincidunt ipsum</p>
+      							</div>
+      						</div>
+                  <!-- end second review -->
+                  <!-- third review -->
+      						<div >
+      							<div class="txt5">
+      								<p>Lorem ipsum </p>
+      								<p class="p1">denic iorg</p>
+      								<p class="p1">11.01.2019 </p>
+      							</div>
+      							<div class="txt6">
+      								<p class="p2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt sapien ac nibh egestas iaculis. Praesent auctor ullamcorper feugiat Aliquam non facilisis magna, vel tempus erat. In molestie tincidunt ipsum</p>
+      							</div>
+      						</div>
+                  <!-- end third review -->
+      					</div>
+                <!-- end of review feild -->
+      			</div>
+            <!-- end of section of reviews -->
+      <!-- sponsoring area -->
+      <div class="brands">
+        <img src="images/github.png" alt="">
+        <img src="images/code.png" alt="">
+        <img src="images/google.png" alt="">
+        <img src="images/codecademy.png" alt="">
+      </div>
+      <!-- end of sponsoring area -->
+      <!-- footer-->
+      <footer>
+        <!-- contact section -->
+        <div class="contact">
+          <h1>CONTACT US</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt sapien ac nibh egestas iaculis. </p>
+        </div>
+        <div class="contactFeild">
+          <div class="formOne">
+            <input type="" name="" value="YOUR NAME" >
+            <input type="" name="" value="YOUR E-MAIL" >
+            <input type="" name="" value="SUBJECT" > <br><br><br>
+            <textarea rows="4" cols="50" class="CommentsArea">COMMENTS</textarea>
+            <button>Send</button>
+          </div>
+        </div>
+        <!-- end contact section -->
+        <div class="about">
+          <!-- adress section -->
+          <div class="address">
+            <h1>ADDRESS</h1>
+            <p>265, Avenue Hassa 2,</p>
+            <P>80 000 AGADIR,MAROC</P>
+            <p><b>TeL </b>:+2125228823000</p>
+          </div>
+          <!-- end adress section -->
+          <!-- first vertical line -->
+          <div class="l"></div>
+          <!-- end of first vertical line -->
+          <!-- about us section -->
+          <div class="about_us">
+            <h1>ABOUT US</h1>
+            <p class="aboutText"> <b>MADEE</b> is a Moroccan non-governmental organization that aims at
+              developing the status of technology, empowering digital education in Morocco and
+              encouraging the Moroccan youth to get involved in the digital world. </p>
+          </div>
+          <!-- end of about us section -->
+          <!-- second vertical line -->
+          <div class="m"></div>
+          <!-- end of second vertical line -->
+          <!-- recentPosts section -->
+          <div class="recentPosts">
+            <h1>RECENT POSTS</h1>
+            <p><i class="fas fa-angle-right"></i> Lorem ipsum dolor sit amet</p>
+            <p><i class="fas fa-angle-right"></i> </i>Lorem ipsum dolor sit amet</p>
+            <p><i class="fas fa-angle-right"></i> </i>Lorem ipsum dolor sit amet</p>
+            <p><i class="fas fa-angle-right"></i> Lorem ipsum dolor sit amet</p>
+          </div>
+          <!-- end of recentPosts section -->
+        </div>
+        <!-- bottom footer-->
+        <div class="footer">
+          <!-- logo and copyright sentence -->
+          <img src="images/logo2.png" alt="logo" class="logoFooter">
+          <p> <b>2018</b> All Rights Reserved.</p>
+          <!-- end of logo and copyright sentece-->
+          <!--socialMedia-->
+          <div class="socialMedia">
+            <ul>
+              <li><p></p></li>
+              <li><i class="fab fa-facebook"></i></li>
+              <li><i class="fab fa-youtube"></i></li>
+              <li><i class="fab fa-twitter"></i></li>
+              <li><i class="fab fa-whatsapp"></i></li>
+              <li><i class="fab fa-google-plus"></i></li>
+            </ul>
+          </div>
+          <!-- end of socialMedia -->
+        </div>
+        <!-- end of bottom footer-->
+      </footer>
+      <!-- end of footer -->
+  </body>
+</html>
